@@ -2,3 +2,50 @@
   margin: 0;
   padding: 0;
 }
+body{
+
+}
+.nav-bar{
+  
+}
+.nav-bar nav{
+  background-color: yellow;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  padding: 20px;
+  margin-left: 60px;
+}
+.logo a{
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.menu{
+  
+}
+.menu ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.menu ul li{
+  padding: 10px;
+  margin: 0 10px;
+}
+.menu ul li a{
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.action{
+  padding: 20px;
+  margin-right: 60px;
+}
+.action a{}
+
+hr{}
