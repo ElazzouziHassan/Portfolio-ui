@@ -1,10 +1,10 @@
-
+import NavBar from './components/nav-bar/NavBar'
 function App() {
 
   return (
-    <>
-      <h1>Elazzouzi Hassan online portfolio.</h1>
-    </>
+    <div className="app">
+      <NavBar/>
+    </div>
   )
 }
 
