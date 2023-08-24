@@ -3,7 +3,9 @@ import './navbar.scss'
 
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <div className="nav-bar">
+      <h1>Nav Bar</h1>
+    </div>
   )
 }
 
