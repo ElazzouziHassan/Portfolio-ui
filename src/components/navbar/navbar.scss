@@ -1,7 +1,13 @@
 .nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   .left{
+    display: flex;
+    align-items: center;
     .logo{
       h2{
+        cursor: pointer;
         span{
 
         }
@@ -9,13 +15,19 @@
     }
     .menu{
       ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
         li{
-          
+          cursor: pointer;
         }
       }
     }
   }
   .right{
-    input{}
+    input{
+      cursor: pointer;
+    }
   }
 }
