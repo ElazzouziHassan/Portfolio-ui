@@ -10,20 +10,7 @@ import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 function NavBar() {
   return (
     <div className="nav-bar">
-      <div className="logo">
-        <a href="#">Elazzouzi H.</a>
-      </div>
-      <div className="menu">
-        <ul>
-          <li><a href="#"><AssistantOutlinedIcon/>Blog</a></li>
-          <li><a href="#"><TerminalOutlinedIcon/>Code</a></li>
-          <li><a href="#"><WorkspacePremiumOutlinedIcon/>Resume</a></li>
-          <li><a href="#"><PeopleAltOutlinedIcon/>Social</a></li>
-        </ul>
-      </div>
-      <div className="actioon">
-        <a href="#">let's Talk</a>
-      </div>
+      <h1>Nav Bar</h1>
     </div>
   )
 }
