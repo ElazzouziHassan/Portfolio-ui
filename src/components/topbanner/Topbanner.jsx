@@ -5,8 +5,8 @@ function Topbanner() {
   return (
     <div className="top-banner">
       <div className="left">
-        <a href="mailto:ezhassan.info@gmail.com">Send me mail</a>
-        <a href="tel:+212 648540458">Call me</a>
+        <a href="mailto:ezhassan.info@gmail.com">ezhassan.info@gmail.com</a>
+        <a href="tel:+212 648540458">+212 648540458</a>
       </div>
       <div className="right">
         <a href="#" target="_blank" rel="Github">Github</a>
