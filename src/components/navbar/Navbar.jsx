@@ -19,7 +19,7 @@ function Navbar() {
         </div>
       </div>
       <div className="right">
-        <input type="button" value="Let's Talk" />
+        <input type="button" value="Contact" />
       </div>
     </div>
   )
