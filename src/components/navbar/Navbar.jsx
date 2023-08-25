@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.scss'
+import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 
 function Navbar() {
   return (
