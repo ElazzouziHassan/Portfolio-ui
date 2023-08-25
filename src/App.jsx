@@ -10,7 +10,6 @@ function App() {
       <Navbar />
       <hr />
       <MenuBlinder />
-      <Links/>
       
     </div>
   )
