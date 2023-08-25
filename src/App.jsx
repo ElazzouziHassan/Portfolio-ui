@@ -1,4 +1,5 @@
 import MenuBlinder from "./components/decorateurs/MenuBlinder"
+import Links from "./components/links/Links"
 import Navbar from "./components/navbar/Navbar"
 
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <Navbar />
       <hr />
-      <MenuBlinder/>
+      <MenuBlinder />
+      <Links/>
       
     </div>
   )
