@@ -1,11 +1,9 @@
 import React from 'react'
 import './links.scss'
-import {
-  LinkedInIcon,
-  GitHubIcon,
-  FacebookIcon,
-  InstagramIcon
-} from '@mui/icons-material/LinkedIn';
+import LinkedInIcon  from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 function Links() {
   return (
