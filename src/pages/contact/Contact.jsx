@@ -1,8 +1,12 @@
 import React from 'react'
+import './contact.scss'
+
 
 function contact() {
   return (
-    <div>contact</div>
+    <div className="contact">
+      <h1>Contact Page</h1>
+    </div>
   )
 }
 
