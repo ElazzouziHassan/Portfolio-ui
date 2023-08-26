@@ -5,11 +5,13 @@
   align-items: center;
   justify-content: space-between;
   height: 7vh;
+  background-color: themed('bg');
   .left{
     display: flex;
     align-items: center;
     gap: 90px;
     .logo{
+      padding: 10px;
       h2{
         cursor: pointer;
         span{
@@ -18,6 +20,7 @@
       }
     }
     .menu{
+      padding: 10px;
       ul{
         display: flex;
         align-items: center;
@@ -30,6 +33,7 @@
     }
   }
   .right{
+    padding: 10px;
     input{
       cursor: pointer;
     }
