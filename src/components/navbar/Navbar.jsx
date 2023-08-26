@@ -7,15 +7,40 @@ function Navbar() {
     <div className="nav-bar">
       <div className="left">
         <div className="logo">
-          <h2>Elazzouzi H<span>.</span></h2>
+          <h2>ELAZZOUZI <span>.HA</span></h2>
         </div>
         <div className="menu">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Works</li>
-            <li>Resume</li>
+            <li>
+              <a href="#home">
+                <span>Home</span>
+                <ArrowCircleRightOutlinedIcon className="icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#about">
+                <span>About</span>
+                <ArrowCircleRightOutlinedIcon className="icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#services">
+                <span>Services</span>
+                <ArrowCircleRightOutlinedIcon className="icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#works">
+                <span>Works</span>
+                <ArrowCircleRightOutlinedIcon className="icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#resume">
+                <span>Resume</span>
+                <ArrowCircleRightOutlinedIcon className="icon" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
