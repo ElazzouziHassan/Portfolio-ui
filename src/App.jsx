@@ -1,5 +1,7 @@
+import './style.scss'
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import MenuBlinder from "./components/decorateurs/MenuBlinder"
 import Navbar from "./components/navbar/Navbar"
