@@ -20,11 +20,17 @@ function App() {
     )
   }
 
+  const router = createBrowserRouter([
+    { path: '/', element: <Layout />,
+      children: [
+        { path: '/', element: <Home/> },
+      ]
+    },
+  ]);
+
   return (
     <div className="App">
-      <Navbar />
-      
-      
+      <RouterProvider router={router} />
     </div>
   )
 }
