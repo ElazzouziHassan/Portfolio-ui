@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.scss'
 
 
-function contact() {
+function Contact() {
   return (
     <div className="contact">
       <h1>Contact Page</h1>
@@ -10,4 +10,4 @@ function contact() {
   )
 }
 
-export default contact
+export default Contact
