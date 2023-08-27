@@ -8,37 +8,39 @@ function Navbar() {
     <div className="nav-bar">
       <div className="left">
         <div className="logo">
-          <h2>ELAZZOUZI <span>.HA</span></h2>
+          <Link to="/" style={{ textDecoration:'none' }}>
+            <h2>ELAZZOUZI <span>.HA</span></h2>
+          </Link>
         </div>
         <div className="menu">
           <ul>
             <li>
               <Link to="/">
-                <span>Home</span>
+                <span>HOME</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
               </Link>
             </li>
             <li>
               <Link to="/about">
-                <span>About</span>
+                <span>ABOUT</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
               </Link>
             </li>
             <li>
               <Link to="/services">
-                <span>Services</span>
+                <span>SERVICES</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
               </Link>
             </li>
             <li>
               <Link to="/works">
-                <span>Works</span>
+                <span>WORKS</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
               </Link>
             </li>
             <li>
               <Link to="/resume">
-                <span>Resume</span>
+                <span>RESUME</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
               </Link>
             </li>
@@ -46,7 +48,9 @@ function Navbar() {
         </div>
       </div>
       <div className="right">
-        <input type="button" value="Let's Talk" />
+        <Link to='/contact'>
+          <input type="button" value="LET'S TALK" />
+        </Link>
       </div>
     </div>
   )
