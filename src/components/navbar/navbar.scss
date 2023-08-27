@@ -1,16 +1,20 @@
 @import '../../style.scss';
 .nav-bar{
   @include themify($themes) {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 9vh;
-  background-color: themed('bg');
-  border-bottom: solid 2px lightcoral;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 5vh;
+    position: sticky;
+    top: 0;
+    background-color: themed("bg");
   .left{
     display: flex;
     align-items: center;
     gap: 90px;
+    margin-left: 50px;
     .logo{
       padding: 10px;
       h2{
@@ -31,7 +35,6 @@
         height: 100%;
         li{
           cursor: pointer;
-          width: 10vw;
 
           &:hover{
           border: solid 1.6px themed('border');
@@ -63,9 +66,10 @@
   }
   .right{
     padding: 10px;
+    margin-right: 50px;
     input{
       cursor: pointer;
-      width: 8vw;
+      border: none;
     }
   }
 }
