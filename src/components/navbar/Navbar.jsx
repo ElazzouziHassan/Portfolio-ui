@@ -12,31 +12,31 @@ function Navbar() {
         <div className="menu">
           <ul>
             <li>
-              <a href="#home">
+              <a href="/">
                 <span>Home</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
               </a>
             </li>
             <li>
-              <a href="#about">
+              <a href="/about">
                 <span>About</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
               </a>
             </li>
             <li>
-              <a href="#services">
+              <a href="/services">
                 <span>Services</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
               </a>
             </li>
             <li>
-              <a href="#works">
+              <a href="/works">
                 <span>Works</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
               </a>
             </li>
             <li>
-              <a href="#resume">
+              <a href="/resume">
                 <span>Resume</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
               </a>
