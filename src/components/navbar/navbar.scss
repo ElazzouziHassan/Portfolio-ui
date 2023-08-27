@@ -14,10 +14,10 @@
     .logo{
       padding: 10px;
       h2{
-        color: themed('lo');
+        color: themed('logo');
         cursor: pointer;
         span{
-          color: themed('textColor');
+          color: themed('logoD');
         }
       }
     }
@@ -34,7 +34,7 @@
           width: 10vw;
 
           &:hover{
-          border: solid 2px themed('border');
+          border: solid 1.6px themed('border');
           border-left: none;
           border-right: none;
           }
