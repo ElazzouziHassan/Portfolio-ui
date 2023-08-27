@@ -10,6 +10,7 @@ import About from "./pages/about/About"
 import Works from "./pages/works/Works"
 import Resume from "./pages/resume/Resume"
 import Contact from "./pages/contact/Contact"
+import Profile from './pages/profile/Profile';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
     { path: '/', element: <Layout />,
       children: [
         { path: '/', element: <Home /> },
+        { path: '/profile', element: <Profile /> },
         { path: '/about', element: <About /> },
         { path: '/services', element: <Services/> },
         { path: '/works', element: <Works /> },
