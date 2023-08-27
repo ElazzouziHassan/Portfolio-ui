@@ -1,6 +1,7 @@
 import React from 'react'
 import './navbar.scss'
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -12,46 +13,40 @@ function Navbar() {
         <div className="menu">
           <ul>
             <li>
-              <a href="/">
+              <Link to="/">
                 <span>Home</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about">
+              <Link to="/about">
                 <span>About</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/services">
+              <Link to="/services">
                 <span>Services</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/works">
+              <Link to="/works">
                 <span>Works</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/blog">
-                <span>Blog</span>
-                <ArrowCircleRightOutlinedIcon className="icon" />
-              </a>
-            </li>
-            <li>
-              <a href="/resume">
+              <Link to="/resume">
                 <span>Resume</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
       </div>
       <div className="right">
-        <input type="button" value="Contact" />
+        <input type="button" value="Let's Talk" />
       </div>
     </div>
   )
