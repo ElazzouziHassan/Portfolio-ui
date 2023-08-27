@@ -14,10 +14,10 @@
     .logo{
       padding: 10px;
       h2{
-        color: themed('textColor');
+        color: themed('lo');
         cursor: pointer;
         span{
-
+          color: themed('textColor');
         }
       }
     }
