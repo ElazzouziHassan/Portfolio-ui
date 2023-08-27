@@ -1,9 +1,10 @@
-import React from 'react'
 import './navbar.scss'
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+
+
   return (
     <div className="nav-bar">
       <div className="left">
@@ -48,9 +49,9 @@ function Navbar() {
         </div>
       </div>
       <div className="right">
-        <Link to='/contact'>
-          <input type="button" value="LET'S TALK" />
-        </Link>
+        <button >
+          DM
+        </button>
       </div>
     </div>
   )
