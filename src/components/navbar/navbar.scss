@@ -13,7 +13,7 @@
   .left{
     display: flex;
     align-items: center;
-    gap: 90px;
+    gap: 70px;
     margin-left: 50px;
     .logo{
       padding: 10px;
@@ -31,20 +31,19 @@
         display: flex;
         align-items: center;
         list-style: none;
-        gap: 50px;
+        gap: 10px;
         height: 100%;
         li{
           cursor: pointer;
-
           &:hover{
           border: solid 1.6px themed('border');
           border-left: none;
           border-right: none;
           }
-          
           a{
             text-decoration: none;
             display: flex;
+            gap: 70px;
             align-items: center;
             justify-content: space-between;
             padding: 3px 10px;
@@ -53,12 +52,8 @@
             &:hover{
               background-color: rgb(78, 75, 75);
             }
-            .icon{
-
-            }
-            span{
-
-            }
+            .icon{}
+            span{}
           }
         }
       }
