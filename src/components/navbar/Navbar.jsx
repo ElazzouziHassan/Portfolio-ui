@@ -36,6 +36,12 @@ function Navbar() {
               </a>
             </li>
             <li>
+              <a href="/blog">
+                <span>Blog</span>
+                <ArrowCircleRightOutlinedIcon className="icon" />
+              </a>
+            </li>
+            <li>
               <a href="/resume">
                 <span>Resume</span>
                 <ArrowCircleRightOutlinedIcon className="icon" />
