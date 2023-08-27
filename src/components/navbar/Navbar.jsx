@@ -8,7 +8,7 @@ function Navbar() {
     <div className="nav-bar">
       <div className="left">
         <div className="logo">
-          <Link to="/" style={{ textDecoration:'none' }}>
+          <Link to="/profile" style={{ textDecoration:'none' }}>
             <h2>ELAZZOUZI <span>.HA</span></h2>
           </Link>
         </div>
