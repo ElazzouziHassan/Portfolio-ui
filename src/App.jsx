@@ -9,6 +9,7 @@ import Services from "./pages/services/Services"
 import About from "./pages/about/About"
 import Works from "./pages/works/Works"
 import Resume from "./pages/resume/Resume"
+import Blog from "./pages/blog/Blog"
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         { path: '/about', element: <About /> },
         { path: '/services', element: <Services/> },
         { path: '/works', element: <Works /> },
+        { path: '/blog', element: <Blog /> },
         { path: '/resume', element: <Resume /> },
         
       ]
