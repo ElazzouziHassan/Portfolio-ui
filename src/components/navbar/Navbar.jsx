@@ -1,9 +1,14 @@
 import './navbar.scss'
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
+import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { DarkModeContext } from '../../context/darkModeContext';
 
 function Navbar() {
 
+  
+  
+  const { toggle, darkMode } = useContext(DarkModeContext);
 
   return (
     <div className="nav-bar">
@@ -49,8 +54,10 @@ function Navbar() {
         </div>
       </div>
       <div className="right">
-        <button >
-          DM
+        <button onClick={toggle}>
+        {
+          darkMode ? "Light" : 'Dark'
+        }
         </button>
       </div>
     </div>
