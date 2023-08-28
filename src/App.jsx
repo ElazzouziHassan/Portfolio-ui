@@ -2,7 +2,6 @@ import './style.scss'
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-
 import Navbar from "./components/navbar/Navbar"
 import Home from "./pages/home/Home"
 import Services from "./pages/services/Services"
@@ -11,7 +10,7 @@ import Works from "./pages/works/Works"
 import Resume from "./pages/resume/Resume"
 import Contact from "./pages/contact/Contact"
 import Profile from './pages/profile/Profile';
-
+import Topbanner from './components/topbanner/Topbanner';
 
 function App() {
 
@@ -20,6 +19,7 @@ function App() {
   const Layout = () => {
     return (
       <div className={`theme-${darkMode ? "dark" : "light"}`}>
+        {/* <Topbanner/> */}
         <Navbar />
         <Outlet/>
       </div>
