@@ -6,8 +6,6 @@ import { DarkModeContext } from '../../context/darkModeContext';
 
 function Navbar() {
 
-  
-  
   const { toggle, darkMode } = useContext(DarkModeContext);
 
   return (
