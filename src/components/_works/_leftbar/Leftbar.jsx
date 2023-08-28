@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './left.scss'
 import works from '../../../../public/data/works.json'
 
 function Leftbar() {
