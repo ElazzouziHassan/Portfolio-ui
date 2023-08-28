@@ -1,0 +1,6 @@
+@import '../../../style.scss';
+.main{
+  @include themify($themes) {
+    
+  }
+}
