@@ -64,7 +64,12 @@
     margin-right: 50px;
     button{
       border: none;
-      span{}
+      background: transparent;
+      span{
+        .icon{
+          
+        }
+      }
     }
   }
 }
