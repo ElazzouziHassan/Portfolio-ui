@@ -56,10 +56,11 @@ function Navbar() {
       <div className="right">
         <button onClick={toggle}>
         {
-            darkMode ? 
-              <WbSunnyOutlinedIcon />
+            darkMode
+              ? 
+                <WbSunnyOutlinedIcon />
               :
-              <DarkModeOutlinedIcon/>
+                <DarkModeOutlinedIcon/>
         }
         </button>
       </div>
