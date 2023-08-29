@@ -1,5 +1,7 @@
 import './navbar.scss'
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
+import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
+import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { DarkModeContext } from '../../context/darkModeContext';
@@ -54,7 +56,10 @@ function Navbar() {
       <div className="right">
         <button onClick={toggle}>
         {
-          darkMode ? "Light" : 'Dark'
+            darkMode ? 
+              <WbSunnyOutlinedIcon />
+              :
+              <DarkModeOutlinedIcon/>
         }
         </button>
       </div>
