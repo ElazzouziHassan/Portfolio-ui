@@ -58,9 +58,9 @@ function Navbar() {
         {
             darkMode
               ? 
-                <WbSunnyOutlinedIcon />
+                <WbSunnyOutlinedIcon  className='icon'/>
               :
-                <DarkModeOutlinedIcon/>
+                <DarkModeOutlinedIcon className='icon'/>
         }
         </button>
       </div>
