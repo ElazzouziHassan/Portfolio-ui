@@ -49,6 +49,7 @@
             padding: 3px 10px;
             margin: 2px 0;
             background-color: themed('bgSoft');
+            color: themed('textColor');
             &:hover{
               background-color: rgb(78, 75, 75);
             }
