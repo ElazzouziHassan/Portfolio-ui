@@ -19,7 +19,7 @@ function App() {
   const Layout = () => {
     return (
       <div className={`theme-${darkMode ? "dark" : "light"}`}>
-        {/* <Topbanner/> */}
+        <Topbanner/>
         <Navbar />
         <Outlet/>
       </div>
