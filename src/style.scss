@@ -6,7 +6,7 @@ $themes: (
     border:#000,
     focus:#000,
     hover:#000,
-    icon:#141411,
+    icon:rgb(55, 3, 92),
     btn:#000,
     btnText:#000,
     btnHover:#000,
@@ -15,8 +15,8 @@ $themes: (
   ),
   dark: (
     bg:rgb(49, 49, 49),
-    bgSoft:#9E9FA5,
-    textColor:rgb(25, 91, 42),
+    bgSoft:#8c8e9c,
+    textColor:rgb(127, 230, 153),
     border:#000,
     focus:#000,
     hover:#000,
@@ -24,6 +24,8 @@ $themes: (
     btn:#000,
     btnText:#000,
     btnHover:#000,
+    logo:#b2af08,
+    logoD:#e6e20f,
   ),
 );
 
