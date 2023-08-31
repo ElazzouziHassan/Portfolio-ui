@@ -1,6 +1,22 @@
 @import '../../style.scss';
 .profile{
   @include themify($themes) {
-    
+    .main{
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      .left{
+        background-color: aqua;
+        width: 50vw;
+        height: calc(100vh - 10vh);
+      }
+      .right{
+        width: 50vw;
+        height: calc(100vh - 10vh);
+        background-color: blue;
+        .top{}
+        .bottom{}
+      }
+    }
   }
 }
