@@ -7,14 +7,14 @@ function Profile() {
     <div className="profile">
       <div className="main">
         <div className="left">
-
+          left
         </div>
         <div className="right">
           <div className="top">
-
+            right-top
           </div>
           <div className="bottom">
-            
+            right-bottom
           </div>
         </div>
       </div>
