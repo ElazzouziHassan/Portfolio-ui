@@ -1,6 +1,8 @@
 @import '../../style.scss';
 .links{
   @include themify($themes) {
-    
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 }
