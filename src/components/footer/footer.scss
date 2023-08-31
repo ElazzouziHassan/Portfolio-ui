@@ -6,8 +6,18 @@
     justify-content: space-between;
     padding: 10px;
     background-color: themed('bg');
-    .left{}
-    .center{}
-    .right{}
+    .left{
+      h2{
+        span{}
+      }
+    }
+    .center{
+      span{
+        a{}
+      }
+    }
+    .right{
+
+    }
   }
 }
