@@ -20,15 +20,12 @@ function Profile() {
           <span>Intro</span>
           <hr />
           <div className="info">
-            
           </div>
         </div>
       </div>
       <div className="posts">
         <h1>posts</h1>
       </div>
-
-
     </div>
   )
 }
