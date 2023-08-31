@@ -1,6 +1,13 @@
 @import '../../style.scss';
 .footer{
   @include themify($themes) {
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: themed('bg');
+    .left{}
+    .center{}
+    .right{}
   }
 }
