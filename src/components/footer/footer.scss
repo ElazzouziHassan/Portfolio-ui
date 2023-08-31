@@ -1,0 +1,6 @@
+@import '../../style.scss';
+.profile{
+  @include themify($themes) {
+    
+  }
+}
