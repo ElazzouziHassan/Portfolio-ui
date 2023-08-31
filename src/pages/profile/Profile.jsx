@@ -6,7 +6,17 @@ function Profile() {
   return (
     <div className="profile">
       <div className="main">
-        main
+        <div className="left">
+
+        </div>
+        <div className="right">
+          <div className="top">
+
+          </div>
+          <div className="bottom">
+            
+          </div>
+        </div>
       </div>
       <Footer/>
     </div>
