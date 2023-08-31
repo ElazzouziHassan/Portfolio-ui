@@ -1,6 +1,7 @@
 import './navbar.scss'
 import { useContext } from 'react';
 import { DarkModeContext } from '../../context/darkModeContext';
+import { Link } from 'react-router-dom';
 
 
 
@@ -12,16 +13,16 @@ function Navbar() {
     <div className="nav-bar">
       <div className="left">
         <div className="logo">
-          <h2>ELAZZOUZI <span>.HA</span></h2>
+          <Link to='/profile'><h2>ELAZZOUZI <span>.HA</span></h2></Link>
         </div>
       </div>
       <div className="menu">
         <ul>
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>SERVICES</li>
-          <li>WORKS</li>
-          <li>RESUME</li>
+          <Link to='/'><li>HOME</li></Link>
+          <Link to='/about'><li>ABOUT</li></Link>
+          <Link to='/services'><li>SERVICES</li></Link>
+          <Link to='/works'><li>WORKS</li></Link>
+          <Link to='resume'><li>RESUME</li></Link>
         </ul>
       </div>
       <div className="right">
