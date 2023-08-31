@@ -10,8 +10,23 @@
     position: sticky;
     top: 0;
     background-color: themed("bg");
-  .left{}
-  .menu{}
-  .right{}
+  .left{
+    .logo{
+      h2{
+        span{}
+      }
+    }
+  }
+  .menu{
+    ul{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      li{}
+    }
+  }
+  .right{
+    button{}
+  }
 }
 }
