@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.scss'
 import { Link } from 'react-router-dom'
+import Links from '../links/Links'
 
 function Footer() {
   return (
@@ -12,7 +13,7 @@ function Footer() {
         <span>Copyright <a href="#">Wizardy</a> &copy;2023</span>
       </div>
       <div className="right">
-        
+        <Links/>
       </div>
     </div>
   )
