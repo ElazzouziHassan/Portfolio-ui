@@ -10,6 +10,9 @@ function Navbar() {
 
   return (
     <div className="nav-bar">
+      <div className="left"></div>
+      <div className="menu"></div>
+      <div className="right"></div>
       <button onClick={toggle}>
         {
           darkMode ? "light" : "Dark"
