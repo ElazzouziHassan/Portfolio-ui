@@ -22,7 +22,11 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      li{}
+      li{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
     }
   }
   .right{
