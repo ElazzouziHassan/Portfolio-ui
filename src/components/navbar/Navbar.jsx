@@ -4,7 +4,12 @@ import { DarkModeContext } from '../../context/darkModeContext';
 import { Link } from 'react-router-dom';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
-
+import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
+import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
+import TerminalOutlinedIcon from '@mui/icons-material/TerminalOutlined';
+import EngineeringOutlinedIcon from '@mui/icons-material/EngineeringOutlined';
+import BadgeOutlinedIcon from '@mui/icons-material/BadgeOutlined';
+import PermContactCalendarOutlinedIcon from '@mui/icons-material/PermContactCalendarOutlined';
 
 
 function Navbar() {
@@ -20,11 +25,25 @@ function Navbar() {
       </div>
       <div className="menu">
         <ul>
-          <Link to='/'><li>HOME</li></Link>
-          <Link to='/about'><li>ABOUT</li></Link>
-          <Link to='/services'><li>SERVICES</li></Link>
-          <Link to='/works'><li>WORKS</li></Link>
-          <Link to='resume'><li>RESUME</li></Link>
+          <Link to='/'>
+            <li><OtherHousesOutlinedIcon className="icon" /> HOME</li>
+          </Link>
+          <Link to='/about'>
+            
+            <li><CodeOutlinedIcon className="icon" /> ABOUT</li>
+          </Link>
+          <Link to='/services'>
+            
+            <li><EngineeringOutlinedIcon className="icon" /> SERVICES</li>
+          </Link>
+          <Link to='/works'>
+            
+            <li><TerminalOutlinedIcon className="icon" /> WORKS</li>
+          </Link>
+          <Link to='resume'>
+            
+            <li><BadgeOutlinedIcon className="icon" /> RESUME</li>
+          </Link>
         </ul>
       </div>
       <div className="right">
@@ -33,6 +52,11 @@ function Navbar() {
             darkMode ? <LightModeOutlinedIcon/> : <DarkModeOutlinedIcon/>
           }
         </button>
+        <Link to="/contact">
+          <button>
+            <PermContactCalendarOutlinedIcon className='icon' />
+          </button>
+        </Link>
       </div>
       
     </div>
