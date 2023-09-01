@@ -2,6 +2,8 @@ import './navbar.scss'
 import { useContext } from 'react';
 import { DarkModeContext } from '../../context/darkModeContext';
 import { Link } from 'react-router-dom';
+import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
+import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 
 
 
@@ -13,7 +15,7 @@ function Navbar() {
     <div className="nav-bar">
       <div className="left">
         <div className="logo">
-          <Link to='/profile'><h2>ELAZZOUZI <span>.HA</span></h2></Link>
+          <Link to='/'><h2>ELAZZOUZI <span>.HA</span></h2></Link>
         </div>
       </div>
       <div className="menu">
@@ -28,7 +30,7 @@ function Navbar() {
       <div className="right">
         <button onClick={toggle}>
           {
-            darkMode ? "light" : "Dark"
+            darkMode ? <LightModeOutlinedIcon/> : <DarkModeOutlinedIcon/>
           }
         </button>
       </div>
