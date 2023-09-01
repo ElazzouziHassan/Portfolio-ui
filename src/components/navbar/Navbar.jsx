@@ -28,20 +28,16 @@ function Navbar() {
           <Link to='/'>
             <li><OtherHousesOutlinedIcon className="icon" /> HOME</li>
           </Link>
-          <Link to='/about'>
-            
+          <Link to='/about'> 
             <li><CodeOutlinedIcon className="icon" /> ABOUT</li>
           </Link>
-          <Link to='/services'>
-            
+          <Link to='/services'>            
             <li><EngineeringOutlinedIcon className="icon" /> SERVICES</li>
           </Link>
-          <Link to='/works'>
-            
+          <Link to='/works'>            
             <li><TerminalOutlinedIcon className="icon" /> WORKS</li>
           </Link>
-          <Link to='resume'>
-            
+          <Link to='resume'>           
             <li><BadgeOutlinedIcon className="icon" /> RESUME</li>
           </Link>
         </ul>
@@ -57,8 +53,7 @@ function Navbar() {
             <PermContactCalendarOutlinedIcon className='icon' />
           </button>
         </Link>
-      </div>
-      
+      </div>     
     </div>
   )
 }
