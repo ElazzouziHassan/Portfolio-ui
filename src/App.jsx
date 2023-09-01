@@ -10,7 +10,6 @@ import Works from "./pages/works/Works"
 import Resume from "./pages/resume/Resume"
 import Contact from "./pages/contact/Contact"
 import Profile from './pages/profile/Profile';
-import Topbanner from './components/topbanner/Topbanner';
 
 function App() {
 
@@ -19,7 +18,6 @@ function App() {
   const Layout = () => {
     return (
       <div className={`theme-${darkMode ? "dark" : "light"}`}>
-        {/* <Topbanner/> */}
         <Navbar />
         <Outlet/>
       </div>
