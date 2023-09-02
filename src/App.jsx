@@ -1,4 +1,5 @@
 import './style.scss'
+import './app.scss'
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
@@ -18,7 +19,6 @@ function App() {
     return (
       <div className={`theme-${darkMode ? "dark" : "light"}`}>
         <Navbar />
-        <hr />
         <Outlet/>
       </div>
     )
