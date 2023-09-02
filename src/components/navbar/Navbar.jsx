@@ -26,19 +26,25 @@ function Navbar() {
       <div className="menu">
         <ul>
           <Link to='/'>
-            <li><OtherHousesOutlinedIcon className="icon" /> HOME</li>
+            <li>
+              <OtherHousesOutlinedIcon className="icon" />
+              <span>HOME</span>
+            </li>
           </Link>
           <Link to='/about'> 
-            <li><CodeOutlinedIcon className="icon" /> ABOUT</li>
+            <li>
+              <CodeOutlinedIcon className="icon" />
+              <span>ABOUT</span>
+            </li>
           </Link>
           <Link to='/services'>            
-            <li><EngineeringOutlinedIcon className="icon" /> SERVICES</li>
+            <li><EngineeringOutlinedIcon className="icon" /> <span>SERVICES</span></li>
           </Link>
           <Link to='/works'>            
-            <li><TerminalOutlinedIcon className="icon" /> WORKS</li>
+            <li><TerminalOutlinedIcon className="icon" /> <span>WORKS</span></li>
           </Link>
           <Link to='resume'>           
-            <li><BadgeOutlinedIcon className="icon" /> RESUME</li>
+            <li><BadgeOutlinedIcon className="icon" /> <span>RESUME</span></li>
           </Link>
         </ul>
       </div>
