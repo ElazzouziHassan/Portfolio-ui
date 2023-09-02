@@ -21,17 +21,25 @@
     ul{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
       li{
         display: flex;
         align-items: center;
+        color: themed('textColor');
+        .icon{
+          color: themed('iconColor');
+        }
       }
     }
   }
   .right{
     padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
     button{
-      
+      border: none;
+      background: transparent;
     }
   }
 }
