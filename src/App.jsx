@@ -18,6 +18,7 @@ function App() {
     return (
       <div className={`theme-${darkMode ? "dark" : "light"}`}>
         <Navbar />
+        <hr />
         <Outlet/>
       </div>
     )
