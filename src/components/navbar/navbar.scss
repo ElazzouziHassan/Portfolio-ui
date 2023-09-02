@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: space-between;
   background-color: themed('bg');
+  height: 7vh;
+  position: sticky;
+  top: 0;
   .left{
     padding: 10px;
     margin-left: 50px;
