@@ -45,7 +45,7 @@ function Navbar() {
       <div className="right">
         <button onClick={toggle}>
           {
-            darkMode ? <LightModeOutlinedIcon/> : <DarkModeOutlinedIcon/>
+            darkMode ? <LightModeOutlinedIcon className='icon'/> : <DarkModeOutlinedIcon className='icon'/>
           }
         </button>
         <Link to="/contact">
