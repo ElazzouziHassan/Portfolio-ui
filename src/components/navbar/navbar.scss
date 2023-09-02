@@ -9,7 +9,10 @@
     padding: 10px;
     .logo{
       h2{
-        span{}
+        color: themed('textColor');
+        span{
+          color:themed('dotHA');
+        }
       }
     }
   }
