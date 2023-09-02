@@ -1,8 +1,12 @@
 @import '../../style.scss';
 .nav-bar{
   @include themify($themes) {
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: themed('bg');
   .left{
+    padding: 10px;
     .logo{
       h2{
         span{}
@@ -10,14 +14,19 @@
     }
   }
   .menu{
+    padding: 10px;
     ul{
-     
+    display: flex;
+    align-items: center;
+    gap: 10px;
       li{
-        
+        display: flex;
+        align-items: center;
       }
     }
   }
   .right{
+    padding: 10px;
     button{
       
     }
