@@ -9,11 +9,12 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  border-bottom: solid 2px yellow;
+  border-bottom: solid 2px #5C8374;
   .left{
     padding: 10px;
     margin-left: 50px;
     .logo{
+      cursor: pointer;
       h2{
         color: themed('textColor');
         span{
@@ -29,6 +30,7 @@
     align-items: center;
     gap: 50px;
       li{
+        cursor: pointer;
         display: flex;
         align-items: center;
         color: themed('textColor');
@@ -51,6 +53,7 @@
     gap: 20px;
     margin-right: 50px;
     button{
+      cursor: pointer;
       border: none;
       background: transparent;
     }
