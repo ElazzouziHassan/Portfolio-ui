@@ -4,8 +4,13 @@
     background-color: themed('bgSoft');
 
     .top{
+      display: flex;
+
       .user{
-        img{}
+        img{
+          width: 18vw;
+          height: 40vh;
+        }
         .social-network{
 
           a{
