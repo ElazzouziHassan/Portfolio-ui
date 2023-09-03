@@ -22,7 +22,7 @@ function Home() {
         <div className="banner">
           <h1>banner</h1>
         </div>
-      </div>    
+      </div> 
       <div className="bottom">
         <div className="left">
           <h1>left side</h1>
