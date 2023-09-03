@@ -2,5 +2,20 @@
 .home{
   @include themify($themes) {
     background-color: themed('bgSoft');
+
+    .top{
+      .user{
+        img{}
+        .social-network{
+
+          a{
+
+            .icon{}
+          }
+        }
+      }
+      .banner{}
+    }
+    .bottom{}
   }
 }
