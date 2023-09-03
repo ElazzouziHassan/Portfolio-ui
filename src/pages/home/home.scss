@@ -12,19 +12,28 @@
       .user{
         margin-left: 50px;
         img{
-          width: 15vw;
-          height: 32vh;
+          width: 12vw;
+          height: 24vh;
+          border-radius: 10px;
+          border: solid 1px greenyellow;
         }
         .social-network{
-
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
           a{
-
-            .icon{}
+            margin: 0 10px;
+            .icon{
+            }
           }
         }
       }
       .banner{}
     }
-    .bottom{}
+    .bottom{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
 }
