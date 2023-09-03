@@ -6,9 +6,8 @@
     .top{
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      // justify-content: space-between;
       padding: 10px;
-
       .user{
         margin-left: 50px;
         img{
@@ -28,7 +27,10 @@
           }
         }
       }
-      .banner{}
+      .banner{
+        margin-right: 50px;
+        border: solid 1px greenyellow;
+      }
     }
     .bottom{
       display: flex;
