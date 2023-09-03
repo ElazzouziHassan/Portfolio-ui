@@ -16,11 +16,14 @@ function Home() {
             <a href="#"><GitHubIcon className='icon github'/></a>
             <a href="#"><LinkedInIcon className='icon linkedin'/></a>
             <a href="#"><InstagramIcon className='icon instgram'/></a>
-            <a href="#"><FacebookIcon className='icon facebook'/></a>
+            <a href="#"><FacebookIcon className='icon facebook' /></a>
           </div>
+          <div className="arab-name">
+            <span style={{ fontFamily: "Amiri Quran" }}>العزوزي حسن</span>
+          </div>  
         </div>
         <div className="banner">
-          <h1>banner</h1>
+          <h1>EL AZZOUZI HASSAN</h1>
         </div>
       </div> 
       <div className="bottom">
