@@ -1,5 +1,6 @@
 import './home.scss'
 import React from 'react'
+import User from '../../assets/user.jpg'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -10,7 +11,7 @@ function Home() {
     <div className="home">
       <div className="top">
         <div className="user">
-          <img src="#" alt="user" />
+          <img src={User} alt="user" />
           <div className="social-network">
             <a href="#"><GitHubIcon className='icon github'/></a>
             <a href="#"><LinkedInIcon className='icon linkedin'/></a>
