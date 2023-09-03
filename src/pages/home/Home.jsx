@@ -1,5 +1,9 @@
 import './home.scss'
 import React from 'react'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 function Home() {
   return (
@@ -8,10 +12,10 @@ function Home() {
         <div className="user">
           <img src="#" alt="user" />
           <div className="social-network">
-            <a href="#">G</a>
-            <a href="#">L</a>
-            <a href="#">F</a>
-            <a href="#">I</a>
+            <a href="#"><GitHubIcon className='icon github'/></a>
+            <a href="#"><LinkedInIcon className='icon linkedin'/></a>
+            <a href="#"><InstagramIcon className='icon instgram'/></a>
+            <a href="#"><FacebookIcon className='icon facebook'/></a>
           </div>
         </div>
         <div className="banner">
