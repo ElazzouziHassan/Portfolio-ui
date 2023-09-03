@@ -26,10 +26,28 @@
             }
           }
         }
+        .arab-name{
+          span{
+            letter-spacing: 2px;
+            font-size: larger;
+            font-weight: bold;
+            margin-left: 25px;
+          }
+        }
       }
       .banner{
         margin-right: 50px;
         border: solid 1px greenyellow;
+        h1{
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          letter-spacing: 2px;
+          span{
+          
+          }
+        }
       }
     }
     .bottom{
