@@ -5,11 +5,15 @@
 
     .top{
       display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
 
       .user{
+        margin-left: 50px;
         img{
-          width: 18vw;
-          height: 40vh;
+          width: 15vw;
+          height: 32vh;
         }
         .social-network{
 
