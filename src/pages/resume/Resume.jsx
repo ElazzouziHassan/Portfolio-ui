@@ -8,4 +8,5 @@ function Resume() {
     </div>
   )
 }
+
 export default Resume
