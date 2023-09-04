@@ -2,58 +2,5 @@
 .home{
   @include themify($themes) {
     background-color: themed('bgSoft');
-
-    .top{
-      display: flex;
-      align-items: center;
-      // justify-content: space-between;
-      padding: 10px;
-      .user{
-        margin-left: 50px;
-        img{
-          width: 12vw;
-          height: 24vh;
-          border-radius: 10px;
-          border: solid 1px greenyellow;
-        }
-        .social-network{
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          a{
-            margin: 0 10px;
-            .icon{
-            }
-          }
-        }
-        .arab-name{
-          span{
-            letter-spacing: 2px;
-            font-size: larger;
-            font-weight: bold;
-            margin-left: 25px;
-          }
-        }
-      }
-      .banner{
-        margin-right: 50px;
-        border: solid 1px greenyellow;
-        h1{
-          padding: 10px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          letter-spacing: 2px;
-          span{
-          
-          }
-        }
-      }
-    }
-    .bottom{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
   }
 }
