@@ -1,10 +1,11 @@
+import HeroSection from '../../components/homeComponents/hero/HeroSection'
 import './home.scss'
 import React from 'react'
 
 function Home() {
   return (
     <div className="home">
-      <h1>home page</h1>  
+      <HeroSection/>  
     </div>
   )
 }
