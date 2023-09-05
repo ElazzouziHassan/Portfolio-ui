@@ -9,13 +9,26 @@
     margin-right: 50px;
     .left{
       flex: 1;
-      h2{}
-      p{}
-      input{}
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h2{
+      }
+      p{
+      }
+      input{
+        width: 10vw;
+      }
     }
     .right{
+      display: flex;
+      align-items: center;
+      justify-content: center;
       flex: 1;
-      img{}
+      img{
+        width: 40vw;
+        border-radius: 10px;
+      }
     }
   }
 }
