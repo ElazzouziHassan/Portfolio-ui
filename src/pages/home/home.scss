@@ -2,5 +2,6 @@
 .home{
   @include themify($themes) {
     background-color: themed('bgSoft');
+    width: 100%;
   }
 }
