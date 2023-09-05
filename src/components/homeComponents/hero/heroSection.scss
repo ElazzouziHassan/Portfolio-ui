@@ -1,8 +1,21 @@
 @import '../../../style.scss';
 .hero-section{
   @include themify($themes) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px;
     margin-left: 50px;
     margin-right: 50px;
+    .left{
+      flex: 1;
+      h2{}
+      p{}
+      input{}
+    }
+    .right{
+      flex: 1;
+      img{}
+    }
   }
 }
