@@ -20,7 +20,7 @@ function Navbar() {
     <div className="nav-bar">
       <div className="left">
         <div className="logo">
-          <Link to='/'><h2>ELAZZOUZI <span>.HA</span></h2></Link>
+          <Link to='/'><h2>EH<span>.Coding</span></h2></Link>
         </div>
       </div>
       <div className="menu">
