@@ -7,7 +7,9 @@ function HeroSection() {
     <div className="hero-section">
       <div className="left">
         <h1>EL AZZOUZI HASSAN</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita numquam rem quis quam iusto, maxime amet quo. Quis temporibus sed nobis rerum accusamus saepe praesentium vel qui, repellendus ut odio.</p>
+        <p>
+          
+        </p>
         <input type="button" value="Let's Talk" />
       </div>
       <div className="right">
