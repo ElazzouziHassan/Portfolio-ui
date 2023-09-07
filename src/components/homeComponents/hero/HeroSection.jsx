@@ -11,7 +11,7 @@ function HeroSection() {
         <input type="button" value="Let's Talk" />
       </div>
       <div className="right">
-        <img src="https://images.pexels.com/photos/11035385/pexels-photo-11035385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="hero image" />
+        <img src="https://present.readthedocs.io/en/latest/_images/welcome-to-coding.gif" alt="hero image" />
       </div>
     </div>
   )
