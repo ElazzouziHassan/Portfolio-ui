@@ -1,6 +1,11 @@
 import React from 'react'
 import './HeroSection.scss'
 import CheckBoxOutlinedIcon from '@mui/icons-material/CheckBoxOutlined';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function HeroSection() {
 
@@ -45,6 +50,13 @@ function HeroSection() {
           <br />
         </p>
         <input type="button" value="Let's Talk" />
+        <div className="social-media">
+          <a href='#'><GitHubIcon/><span>GitHub</span></a>
+          <a href='#'><LinkedInIcon/><span>LinkedIn</span></a>
+          <a href='#'><FacebookIcon/><span>Facebook</span></a>
+          <a href='#'><TwitterIcon/><span>Twitter</span></a>
+          <a href='#'><InstagramIcon/><span>Instagram</span></a>
+        </div>
       </div>
       <div className="right">
         <img src="https://present.readthedocs.io/en/latest/_images/welcome-to-coding.gif" alt="hero image" />
