@@ -7,27 +7,36 @@ function HeroSection() {
   return (
     <div className="hero-section">
       <div className="left">
-        <h1>Full Stack Web Developer & UI/UX Designer</h1>
-        <p>
-          <h3>Where Innovation Meets Imagination: Your Web Solutions Expert.</h3>
+        <h2>Full Stack Web Developer & UI/UX Designer</h2>
+        <h3>Where Innovation Meets Imagination: Your Web Solutions Expert.</h3>
+        <p> 
           <span><CheckBoxOutlinedIcon className='list-icon'/></span>
-          <span>
+          <span className='list-text'>
             Bringing Together Code and Creativity to Craft Exceptional Web Experiences.
           </span><br />
-          <span><CheckBoxOutlinedIcon className='list-icon'/></span>
-          <span>
+        </p>
+
+        <p>
+        <span><CheckBoxOutlinedIcon className='list-icon'/></span>
+          <span className='list-text'>
             Transforming Ideas into Digital Realities with a Fusion of Skills.
           </span><br />
-          <span><CheckBoxOutlinedIcon className='list-icon'/></span>
-          <span>
+</p>
+        <p>
+        <span><CheckBoxOutlinedIcon className='list-icon'/></span>
+          <span className='list-text'>
             Empowering Brands with Exceptional Full Stack Web and Design Solutions. 
           </span><br />
-          <span><CheckBoxOutlinedIcon className='list-icon'/></span>
-          <span>
+          </p>
+        <p>
+        <span><CheckBoxOutlinedIcon className='list-icon'/></span>
+          <span className='list-text'>
             Your Partner for Next-Level Digital Experiences: Code & Design Combined.
           </span><br />
+          </p>
+        <p>
           <span><CheckBoxOutlinedIcon className='list-icon'/></span>
-          <span>
+          <span className='list-text'>
             Designing Tomorrow, Building Today: Your Full Stack & UI/UX Expert.
           </span><br />
         </p>
