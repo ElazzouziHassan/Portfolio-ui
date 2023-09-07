@@ -8,7 +8,11 @@ function HeroSection() {
       <div className="left">
         <h1>EL AZZOUZI HASSAN</h1>
         <p>
-          
+          <span>-</span><span></span><br />
+          <span>-</span><span></span><br />
+          <span>-</span><span></span><br />
+          <span>-</span><span></span><br />
+          <span>-</span><span></span><br />
         </p>
         <input type="button" value="Let's Talk" />
       </div>
