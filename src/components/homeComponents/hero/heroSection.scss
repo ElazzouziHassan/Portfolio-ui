@@ -29,6 +29,13 @@
       input{
         width: 10vw;
       }
+      .social-media{
+        a{
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+      }
     }
     .right{
       display: flex;
