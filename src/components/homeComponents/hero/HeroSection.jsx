@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className="hero-section">
       <div className="left">
-        <h1>EL AZZOUZI HASSAN</h1>
+        <h1>Full Stack Web Developer & UI/UX Designer</h1>
         <p>
           <h3>Where Innovation Meets Imagination: Your Web Solutions Expert.</h3>
           <span><CheckBoxOutlinedIcon className='list-icon'/></span>
