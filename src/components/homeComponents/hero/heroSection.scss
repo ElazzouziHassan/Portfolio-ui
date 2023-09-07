@@ -14,6 +14,17 @@
       gap: 10px;
       h2{}
       p{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        h3{}
+        .list-icon{
+          color: red;
+        }
+        .list-text{
+          color: green;
+          margin-bottom: 5px;
+        }
       }
       input{
         width: 10vw;
