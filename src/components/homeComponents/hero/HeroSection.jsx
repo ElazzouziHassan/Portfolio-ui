@@ -51,11 +51,26 @@ function HeroSection() {
         </p>
         <input type="button" value="Let's Talk" />
         <div className="social-media">
-          <a href='#'><GitHubIcon/><span>GitHub</span></a>
-          <a href='#'><LinkedInIcon/><span>LinkedIn</span></a>
-          <a href='#'><FacebookIcon/><span>Facebook</span></a>
-          <a href='#'><TwitterIcon/><span>Twitter</span></a>
-          <a href='#'><InstagramIcon/><span>Instagram</span></a>
+          <a href='#'>
+            <GitHubIcon className='s-icon github' />
+            <span>GitHub</span>
+          </a>
+          <a href='#'>
+            <LinkedInIcon className='s-icon linkedIn' />
+            <span>LinkedIn</span>
+          </a>
+          <a href='#'>
+            <FacebookIcon className='s-icon facebook' />
+            <span>Facebook</span>
+          </a>
+          <a href='#'>
+            <TwitterIcon className='s-icon twitter' />
+            <span>Twitter</span>
+          </a>
+          <a href='#'>
+            <InstagramIcon className='s-icon instagram' />
+            <span>Instagram</span>
+          </a>
         </div>
       </div>
       <div className="right">
