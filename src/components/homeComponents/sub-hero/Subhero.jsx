@@ -19,26 +19,26 @@ function Subhero() {
       <div className="cards">
         <div className="card">
           {/* <img src={Frontend} alt="logo" /> */}
-          <UilReact/>
+          <UilReact className='ui-icon'/>
           <h3>Frontend Developement</h3>
         </div>
         <div className="card">
           {/* <img src={Backend} alt="logo" /> */}
-          <UilServer/>
+          <UilServer className='ui-icon'/>
           <h3>Backend Developement</h3>
         </div>
         <div className="card">
           {/* <img src={UiUx} alt="logo" /> */}
-          <UilDesktopAlt />
+          <UilDesktopAlt className='ui-icon' />
           <h3>UI/ UX Design</h3>
         </div>
         <div className="card">
           {/* <img src={Database} alt="logo" /> */}
-          <UilDatabase/>
+          <UilDatabase className='ui-icon'/>
           <h3>Database management</h3>
         </div>
         <div className="card">
-          <UilCloudComputing/>
+          <UilCloudComputing className='ui-icon'/>
           <h3>API Developement</h3>
         </div>
       </div>
