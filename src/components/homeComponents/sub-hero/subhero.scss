@@ -14,14 +14,17 @@
       border-radius: 5px;
       justify-content: center;
       align-items: center;
-      // background-color: black;
+      background-color: black;
       img{
         width: 35px;
         height: 35px;
         padding: 10px;
       }
       .ui-icon{
-        color: red;
+        width: 5vw;
+        height: 5vh;
+        padding: 5px;
+        color: rgb(4, 74, 15);
       }
       h3{
         color: green;
