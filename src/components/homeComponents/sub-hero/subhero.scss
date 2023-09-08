@@ -2,16 +2,27 @@
   .cards{
     margin-right: 50px;
     margin-left: 50px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     .card{
+      display: flex;
+      flex-direction: column;
       width: 17vw;
-      background-color: lightslategray;
+      height: 22vh;
       border-radius: 5px;
+      justify-content: center;
+      align-items: center;
+      // background-color: black;
       img{
         width: 35px;
         height: 35px;
+        padding: 10px;
+      }
+      h3{
+        color: green;
+        padding: 10px;
       }
     }
   }
