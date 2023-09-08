@@ -26,7 +26,7 @@ function Subhero() {
           <img src={Database} alt="logo" />
           <h3>Database management</h3>
         </div>
-        <div className="card api">
+        <div className="card">
           <img src={API} alt="logo" />
           <h3>API Developement</h3>
         </div>
