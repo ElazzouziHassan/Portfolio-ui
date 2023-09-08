@@ -35,10 +35,14 @@
         }
       }
       input{
+        cursor: pointer;
         width: 10vw;
         height: 5vh;
+        border: none;
         margin-left: 10px;
         margin-top: 7px;
+        background-color: black;
+        color: aliceblue;
       }
       .social-media{
         display: flex;
