@@ -6,11 +6,9 @@
     align-items: center;
     justify-content: space-between;
     .card{
-      width: 15vw;
-    }
-    .api{
-      background-image: url('https://media.istockphoto.com/id/1215417094/photo/api-application-programming-interface-concept-api-concept-with-young-man.jpg?s=1024x1024&w=is&k=20&c=tEe9XmlU6qAtuc_GG_unWYYXs8OnU3UIGO0SRNxnUI4=');
-      object-fit: cover;
+      width: 17vw;
+      background-color: lightslategray;
+      border-radius: 5px;
     }
   }
 }
