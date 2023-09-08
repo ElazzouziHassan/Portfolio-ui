@@ -1,5 +1,12 @@
 import React from 'react'
 import './subhero.scss'
+import {
+  UilReact,
+  UilCloudComputing,
+  UilDatabase,
+  UilServer,
+  UilDesktopAlt 
+} from '@iconscout/react-unicons'
 import API from '../../../assets/home/api.png'
 import Backend from '../../../assets/home/backend.png'
 import Frontend from '../../../assets/home/frontend.png'
@@ -11,23 +18,27 @@ function Subhero() {
     <div className="sub-hero">
       <div className="cards">
         <div className="card">
-          <img src={Frontend} alt="logo" />
+          {/* <img src={Frontend} alt="logo" /> */}
+          <UilReact/>
           <h3>Frontend Developement</h3>
         </div>
         <div className="card">
-          <img src={Backend} alt="logo" />
+          {/* <img src={Backend} alt="logo" /> */}
+          <UilServer/>
           <h3>Backend Developement</h3>
         </div>
         <div className="card">
-          <img src={UiUx} alt="logo" />
+          {/* <img src={UiUx} alt="logo" /> */}
+          <UilDesktopAlt />
           <h3>UI/ UX Design</h3>
         </div>
         <div className="card">
-          <img src={Database} alt="logo" />
+          {/* <img src={Database} alt="logo" /> */}
+          <UilDatabase/>
           <h3>Database management</h3>
         </div>
         <div className="card">
-          <img src={API} alt="logo" />
+          <UilCloudComputing/>
           <h3>API Developement</h3>
         </div>
       </div>
