@@ -8,7 +8,7 @@ function Home() {
     <div className="home">
       <div className="hero">
         <HeroSection />
-        <Subhero/>
+        {/* <Subhero/> */}
       </div>
     </div>
   )
