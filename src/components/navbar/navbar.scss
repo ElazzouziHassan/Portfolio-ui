@@ -9,16 +9,16 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  border-bottom: solid 2px #5C8374;
+  border-bottom: solid 2px themed('borderSecond');
   .left{
     padding: 10px;
     margin-left: 50px;
     .logo{
       cursor: pointer;
       h2{
-        color: themed('textColor');
+        color: themed('text');
         span{
-          color:themed('dotHA');
+          color:themed('textSecond');
         }
       }
     }
@@ -33,15 +33,15 @@
         cursor: pointer;
         display: flex;
         align-items: center;
-        color: themed('textColor');
+        color: themed('text');
         span{
           padding: 5px;
           margin-top: 3px;
-          color: themed('textColor');
+          color: themed('text');
           font-weight: 700;
         }
         .icon{
-          color: themed('iconColor');
+          color: themed('icon');
         }
       }
     }
