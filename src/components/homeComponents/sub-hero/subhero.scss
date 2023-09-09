@@ -1,4 +1,6 @@
+@import '../../../style.scss';
 .sub-hero{
+  @include themify($themes) {
   .cards{
     margin-right: 50px;
     margin-left: 50px;
@@ -15,6 +17,7 @@
       justify-content: center;
       align-items: center;
       transition: ease-in-out .4s;
+      background-color: themed('card');
       &:hover{
         background-color: black;
       }
@@ -35,4 +38,4 @@
       }
     }
   }
-}
+}}
