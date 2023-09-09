@@ -1,41 +1,26 @@
 @import '../../../style.scss';
 .sub-hero{
   @include themify($themes) {
-  .cards{
-    margin-right: 50px;
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+  margin-top: 15vh;
+  gap: 70px;
+  .hr{
+    width: 40vw;
     margin-left: 50px;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    .card{
-      display: flex;
-      flex-direction: column;
-      width: 17vw;
-      height: 22vh;
-      border-radius: 5px;
-      justify-content: center;
-      align-items: center;
-      transition: ease-in-out .4s;
-      background-color: themed('card');
-      &:hover{
-        background-color: black;
-      }
-      img{
-        width: 35px;
-        height: 35px;
-        padding: 10px;
-      }
-      .ui-icon{
-        width: 5vw;
-        height: 5vh;
-        padding: 5px;
-        color: rgb(4, 74, 15);
-      }
-      h3{
-        color: green;
-        padding: 10px;
-      }
+    hr{
+      border: 16px solid black;
+      width: 100%;
     }
   }
-}}
+  .social-media{
+    display: flex;
+    align-items: center;
+    a{
+      display: flex;
+      align-items: center;
+    }
+  }
+  }
+}
