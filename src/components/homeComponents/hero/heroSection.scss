@@ -16,9 +16,11 @@
         font-size: 1.6rem;
         text-transform: uppercase;
         font-weight: bold;
+        color: themed('text');
       }
       h3{
         margin-left: 10px;
+        color: themed('text');
       }
         
       p{
@@ -27,11 +29,11 @@
         align-items: center;
         gap: 10px;
         .list-text{
-          color: green;
+          color: themed('textThird');
           // margin-bottom: 5px;
         }
         .list-icon{
-          color: red;
+          color: themed('textSecond');
         }
       }
       input{
